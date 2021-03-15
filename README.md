@@ -1,4 +1,4 @@
-# raspicam
+# raspiCAM
 
 ### Setup WiFi
 In order to setup WiFi with the correct credentials open the attached file "wpa_supplicant.conf" with a text editor and fill in the correct ssid and password that matches your WiFi setup.
