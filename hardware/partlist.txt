@@ -1,0 +1,42 @@
+Partlist
+
+Exported from Camera.sch at 05.01.21 22:15
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     		Value                          Device                         Package                    Library             Sheet
+
+B1       		1.8-5V                         BATTERY                        JSTPH2                     microbuilder        1
+
+C2       		2.2uF                          CAP_CERAMIC0805-NOOUTLINE      0805-NO                    microbuilder        1
+C3+C7      		1uF                            CAP_CERAMIC0805-NOOUTLINE      0805-NO                    microbuilder        1
+C5       		100uF/6V                       CAP_TANTALUMB/3528_REFLOW      EIA3528-21/B-R             microbuilder        1
+C1+C6+C8+C9+C10       	10uF                           CAP_CERAMIC0805-NOOUTLINE      0805-NO                    microbuilder        1
+C4+C11+C12+C13      	0.1uF                          CAP_CERAMIC0805-NOOUTLINE      0805-NO                    microbuilder        1
+
+IC5      		APX803                         AXP083-SAG                     SOT23                      adafruit            1
+
+J1                                      	       CONN_06SMD-FEMALE-V2           1X06-SMD-FEMALE            SparkFun-Connectors 1
+J2                                      	       CONN_06SMD-FEMALE-V2           1X06-SMD-FEMALE            SparkFun-Connectors 1
+J3                                      	       CONN_06SMD-FEMALE-V2           1X06-SMD-FEMALE            SparkFun-Connectors 1
+
+L1       		VLC5045-6.8uH                  INDUCTORTDK_VLC5045            INDUCTOR_5X5MM_TDK_VLC5045 microbuilder        1
+LCD1     		OLED 128x32                    DISP_OLED_UG-2832HSWEG02       UG-2832HSWEG02_WRAPUNDER   microbuilder        1
+Q2       		8MHz                           RESONATORSMD                   RESONATOR-SMD              SparkFun            1
+
+R1+R3       		1.87Mohm                       RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+R4       		200K                           RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+R8       		2k                             RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+R9+R17   		10K                            RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+R5+R10   		5.1k                           RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+R2+R13      		340K                           RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+R16      		390K                           RESISTOR0805_NOOUTLINE         0805-NO                    microbuilder        1
+
+S1                      SWITCH-SPDT-SMD-RIGHT-ANGLE    SWITCH_SPST_SMD_A          				 SparkFun-Switches   1
+S2       		MOMENTARY-SWITCH-SPST-SMD-12MM MOMENTARY-SWITCH-SPST-SMD-12MM TACTILE_SWITCH_SMD_12MM    SparkFun-Switches   1
+U1       		TPS61090RSAR                   VREG_TPS6103X                  PVQFN-16                   microbuilder        1
+U2       		MCP73831T-2ACI/OT              MCP73831/2                     SOT23-5                    microbuilder        1
+U3       		ATMEGA328                      ATMEGA168                      TQFP32-08                  SparkFun            1
+X3                          			       USB_C                          USB_C_CUSB31-CFM2AX-01-X   microbuilder        1
