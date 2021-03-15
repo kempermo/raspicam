@@ -8,7 +8,7 @@ Insert the sd-card from raspi into your computer and open it in the finder. Plac
 Insert the card back to the raspi and boot. The raspi should now boot and connect to the new WiFi.
 
 ### Helpful applications
-LanScan for getting the IP address of the raspi
+LanScan for getting the IP address of the raspi - https://apps.apple.com/de/app/lanscan/id472226235?mt=12
 
 ### Credetials for login through ssh
 User: pi
