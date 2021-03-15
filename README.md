@@ -22,7 +22,7 @@ ls - List current directory contents
 cd + ... - entering a directory
 cd .. - going back one directory
 sudo nano + ... - opening a file in editor
-Sudo python3 + ... - running a python script with python3
+sudo python3 + ... - running a python script with python3
 ps aux - list current running processes
 sudo kill 425 - kill the process with ID 425
 
