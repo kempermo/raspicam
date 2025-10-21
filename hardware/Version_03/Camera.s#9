@@ -4899,8 +4899,8 @@ R3 = 1.85Mohm</text>
 <instance part="U$16" gate="G$1" x="269.24" y="66.04" smashed="yes">
 <attribute name="VALUE" x="267.716" y="67.056" size="1.27" layer="96"/>
 </instance>
-<instance part="CAM_TOP" gate="G$0" x="142.24" y="88.9" smashed="yes" rot="MR270">
-<attribute name="NAME" x="144.78" y="88.9" size="2.54" layer="95" rot="MR270" align="top-left"/>
+<instance part="CAM_TOP" gate="G$0" x="167.64" y="30.48" smashed="yes" rot="MR90">
+<attribute name="NAME" x="165.1" y="30.48" size="2.54" layer="95" rot="MR90" align="top-left"/>
 </instance>
 <instance part="CAM_BOTTOM" gate="G$0" x="193.04" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="190.5" y="88.9" size="2.54" layer="95" rot="R270" align="top-left"/>
@@ -5574,170 +5574,174 @@ R3 = 1.85Mohm</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="1"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="1"/>
-<wire x1="157.48" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="2"/>
-<pinref part="CAM_TOP" gate="G$0" pin="2"/>
-<wire x1="177.8" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="MP2"/>
+<wire x1="152.4" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="MP1"/>
+<wire x1="142.24" y1="93.98" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="27.94" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="3"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="3"/>
-<wire x1="157.48" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="22"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="1"/>
+<wire x1="152.4" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="4"/>
-<pinref part="CAM_TOP" gate="G$0" pin="4"/>
-<wire x1="177.8" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="21"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="2"/>
+<wire x1="152.4" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="5"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="5"/>
-<wire x1="157.48" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="20"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="3"/>
+<wire x1="152.4" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="6"/>
-<pinref part="CAM_TOP" gate="G$0" pin="6"/>
-<wire x1="177.8" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="19"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="4"/>
+<wire x1="152.4" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="7"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="7"/>
-<wire x1="157.48" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="18"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="5"/>
+<wire x1="152.4" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="8"/>
-<pinref part="CAM_TOP" gate="G$0" pin="8"/>
-<wire x1="177.8" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="17"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="6"/>
+<wire x1="152.4" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="9"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="9"/>
-<wire x1="157.48" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="16"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="7"/>
+<wire x1="152.4" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="10"/>
-<pinref part="CAM_TOP" gate="G$0" pin="10"/>
-<wire x1="177.8" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="15"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="8"/>
+<wire x1="152.4" y1="68.58" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="11"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="11"/>
-<wire x1="157.48" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="14"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="9"/>
+<wire x1="152.4" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="12"/>
-<pinref part="CAM_TOP" gate="G$0" pin="12"/>
-<wire x1="177.8" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="13"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="10"/>
+<wire x1="152.4" y1="63.5" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="13"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="13"/>
-<wire x1="157.48" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="12"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="11"/>
+<wire x1="152.4" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="14"/>
-<pinref part="CAM_TOP" gate="G$0" pin="14"/>
-<wire x1="177.8" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="11"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="12"/>
+<wire x1="152.4" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="15"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="15"/>
-<wire x1="157.48" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="10"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="13"/>
+<wire x1="152.4" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="16"/>
-<pinref part="CAM_TOP" gate="G$0" pin="16"/>
-<wire x1="177.8" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="9"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="14"/>
+<wire x1="152.4" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="17"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="17"/>
-<wire x1="157.48" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="8"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="15"/>
+<wire x1="152.4" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="18"/>
-<pinref part="CAM_TOP" gate="G$0" pin="18"/>
-<wire x1="177.8" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="7"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="16"/>
+<wire x1="152.4" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="19"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="19"/>
-<wire x1="157.48" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="6"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="17"/>
+<wire x1="152.4" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="20"/>
-<pinref part="CAM_TOP" gate="G$0" pin="20"/>
-<wire x1="177.8" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="5"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="18"/>
+<wire x1="152.4" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="21"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="21"/>
-<wire x1="157.48" y1="35.56" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="4"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="19"/>
+<wire x1="152.4" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="22"/>
-<pinref part="CAM_TOP" gate="G$0" pin="22"/>
-<wire x1="177.8" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="3"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="20"/>
+<wire x1="152.4" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="CAM_TOP" gate="G$0" pin="MP1"/>
-<pinref part="CAM_BOTTOM" gate="G$0" pin="MP1"/>
-<wire x1="157.48" y1="27.94" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="CAM_TOP" gate="G$0" pin="2"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="21"/>
+<wire x1="152.4" y1="35.56" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
+<pinref part="CAM_TOP" gate="G$0" pin="1"/>
+<pinref part="CAM_BOTTOM" gate="G$0" pin="22"/>
+<wire x1="152.4" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="CAM_TOP" gate="G$0" pin="MP1"/>
+<wire x1="152.4" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="91.44" x2="144.78" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="CAM_BOTTOM" gate="G$0" pin="MP2"/>
-<pinref part="CAM_TOP" gate="G$0" pin="MP2"/>
-<wire x1="177.8" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

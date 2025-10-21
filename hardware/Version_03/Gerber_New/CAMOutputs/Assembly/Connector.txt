@@ -1,0 +1,5 @@
+Partlist exported from /Users/moritzkemper/Documents/GitHub/Phoenix/raspicam/hardware/Version_03/Connector.sch at 20.10.25 13:50
+
+Qty Value       Device                   Package                  Parts Description                                      MF           MPN        OC_FARNELL OC_NEWARK POPULARITY
+1   52745-1490  52745-1490               52745-1490               X3    FFC/FPC-to-Board  0.50mm (.020") SMT Top Contact WALDOM/MOLEX 52745-1490 unknown    38C9888   0         
+1   OLED 128x32 DISP_OLED_UG-2832HSWEG02 UG-2832HSWEG02_WRAPUNDER LCD2  128x32 I2C 0.91" Monochrome OLED Display                                                                
