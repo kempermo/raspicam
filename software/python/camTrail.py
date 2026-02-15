@@ -1,23 +1,14 @@
-from picamera2 import Picamera2, Preview
-import time
+from picamera2 import Picamera2
+import cv2
 
 picam2 = Picamera2()
-
-preview_config = picam2.create_preview_configuration()
-picam2.configure(preview_config)
-
-# Start preview window
-picam2.start_preview(Preview.DRM)
-
 picam2.start()
 
-try:
-    while True:
-        time.sleep(1)
+while True:
+    frame = picam2.capture_array()
+    cv2.imshow("Preview", frame)
 
-except KeyboardInterrupt:
-    pass
+    if cv2.waitKey(1) == 27:
+        break
 
-finally:
-    picam2.stop_preview()
-    picam2.stop()
+cv2.destroyAllWindows()
