@@ -19,7 +19,7 @@ picam2 = Picamera2()
 
 #------Configure Camera
 config = picam2.create_preview_configuration(
-    main={"size": (480, 800)},
+    main={"size": (480, 800), "format": "XRGB8888"},
     transform=Transform(hflip=True, vflip=True)
 )
 picam2.configure(config)
@@ -46,6 +46,7 @@ aperture = "F2.7"
 #------Start Camera
 picam2.start_preview(Preview.DRM, x=0, y=0, width=480, height=800)
 picam2.start()
+picam2.set_controls({"AwbEnable": False})
 
 #------Overlay Laden
 #overlay_image = Image.open("Documents/camera/uiImage.png").convert("RGBA")
