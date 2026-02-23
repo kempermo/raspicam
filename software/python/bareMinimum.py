@@ -19,7 +19,7 @@ picam2 = Picamera2()
 
 #------Configure Camera
 config = picam2.create_preview_configuration(
-    main={"size": (480, 800), "format": "XRGB8888"},
+    main={"size": (480, 800), "format": "BGR888"},
     transform=Transform(hflip=True, vflip=True)
 )
 picam2.configure(config)
@@ -43,10 +43,19 @@ draw = ImageDraw.Draw(image)
 font = ImageFont.truetype('/home/pi/Documents/camera/ESKlarheitGrotesk-Bold.ttf', 20)
 aperture = "F2.7"
 
+#------Warm up DRM (forces modeset on first boot so colour format is correct)
+picam2.start_preview(Preview.DRM, x=0, y=0, width=480, height=800)
+picam2.start()
+time.sleep(1)
+picam2.stop()
+picam2.stop_preview()
+time.sleep(1)
+picam2.configure(config)
+
 #------Start Camera
 picam2.start_preview(Preview.DRM, x=0, y=0, width=480, height=800)
 picam2.start()
-picam2.set_controls({"AwbEnable": False})
+#picam2.set_controls({"AwbEnable": False})
 
 #------Overlay Laden
 #overlay_image = Image.open("Documents/camera/uiImage.png").convert("RGBA")
@@ -57,7 +66,6 @@ picam2.set_controls({"AwbEnable": False})
 
 #-------Draw on small OLED
 while shutterFlag:
-    print(aperture)
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     draw.text((width/4+40,height/4+12), aperture, font=font, fill=255, anchor="mm")
     disp.image(image)

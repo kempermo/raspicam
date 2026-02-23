@@ -6,6 +6,8 @@ After=multi-user.target
 Type=simple
 User=pi
 WorkingDirectory=/home/pi
+ExecStartPre=/bin/udevadm settle
+ExecStartPre=/bin/sleep 5
 ExecStart=/usr/bin/python3 /home/pi/Documents/camera/bareMinimum.py
 Restart=on-failure
 
