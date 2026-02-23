@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Camera
+Exec=python3 /home/pi/Documents/camera/bareMinimum.py
+X-GNOME-Autostart-enabled=true
